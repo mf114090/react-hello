@@ -1,13 +1,17 @@
-@import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.bigCounter {
+    text-align: center;
+    background: blue;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bigCounter div{
 
-*/
+    display: inline-block;
+    font-size: 80px;
+    line-height: 90px;
+    height: 30px;
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
